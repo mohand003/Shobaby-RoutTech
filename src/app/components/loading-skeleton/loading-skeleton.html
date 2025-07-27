@@ -1,0 +1,15 @@
+<div class="animate-fade-in">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div 
+          *ngFor="let item of skeletonArray" 
+          class="card p-4 space-y-4"
+        >
+          <div class="skeleton h-48 w-full"></div>
+          <div class="space-y-2">
+            <div class="skeleton h-4 w-3/4"></div>
+            <div class="skeleton h-4 w-1/2"></div>
+            <div class="skeleton h-6 w-1/4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
